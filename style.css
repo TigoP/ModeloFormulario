@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
+
+* {
+    font-family: 'Sedan', Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    background: linear-gradient(
+        90deg, rgb(201, 138, 138) 5%, rgb(159, 96, 96), rgb(113, 56, 56), rgb(146, 44, 44),
+        rgb(196, 42, 42), rgb(238, 110, 110), rgb(235, 177, 177)
+    );
+}
+
+header {
+    text-align: center;
+    margin: 50px 0;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.container {
+    background-color: rgb(92, 168, 168);
+    padding: 35px;
+    width: 40%;
+    margin: 0 29%;
+    border-radius: 9px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label {
+    align-self: self-start;
+    margin: 18px 0 5px 0;
+    margin-left: 20%;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+input {
+    width: 60%;
+    font-size: larger;
+    font-size: 16px;
+    border: none;
+    border-radius: 9px;
+    height: 40px;
+}
+
+button {
+    width: 60%;
+    font-size: 20px;
+    border: none;
+    border-radius: 9px;
+    height: 40px;
+    margin: 40px 0 20px 0;
+    background-color: aquamarine;
+}
+
+button:hover {
+    background-color: aqua;
+}

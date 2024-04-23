@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário JS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Formulário JS
+            </h1>
+        </header>
+
+        <main class="container">
+            <form action="#" method="post">
+                <label for="first-name"> Nome: </label>
+                <input type="text" name="first-name" placeholder="Insira o primeiro nome" required minlength="2">
+
+                <label for="last-name"> Sobrenome: </label>
+                <input type="text" name="last-name" placeholder="Insira o sobrenome" required minlength="2">
+                
+                <label for="email"> E-mail: </label>
+                <input type="email" name="email" placeholder="Insira o e-mail" required>
+                
+                <label for="password"> Senha: </label>
+                <input type="password" name="password" placeholder="Insira a senha minimo 6 digitos" required minlength="6">
+                
+                <label for="confirm-password"> Confirmação de Senha: </label>
+                <input type="password" name="confirm-password" placeholder="Insira novamente a senha" required minlength="6">
+                
+                <button type="submit">Entrar</button>
+
+                <p>Não possui senha? Clique <a href="#">Aqui</a> para cadastrar! </p>
+            </form>
+        </main>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
